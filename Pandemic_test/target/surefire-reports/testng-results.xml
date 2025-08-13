@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-29T18:08:26 IST" name="Suite" finished-at="2025-07-29T18:09:11 IST" duration-ms="44635">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-29T18:08:26 IST" name="Test" finished-at="2025-07-29T18:09:11 IST" duration-ms="44635">
+      <class name="com.pandemic.BDD.RunnerClass.CucumberRunnerTests">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:08:26 IST" name="setUpClass" finished-at="2025-07-29T18:08:27 IST" duration-ms="862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c1a8529]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:08:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:08:39 IST" duration-ms="12075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submit E-Pass form with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E-Pass Application Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:08:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:08:42 IST" duration-ms="3304" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submit E-Pass form with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E-Pass Application Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at com.pandemic.BDD.definations.DistrictPassDefination.form_should_not_be_submitted_successfully(DistrictPassDefination.java:44)
+at ✽.Form should not be submitted(file:///D:/Pandemic_test/src/test/java/com/pandemic/BDD/features/DistrinctPassTest.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:08:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:08:47 IST" duration-ms="4576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submit E-Pass form with empty data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E-Pass Application Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:08:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:08:53 IST" duration-ms="6638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submit E-Pass form with valid data and table should be displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E-Pass Application Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:08:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:09:02 IST" duration-ms="8343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submission with valid data for Virus Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Virus Test Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:09:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:09:05 IST" duration-ms="2825" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submission with Invalid data for Virus Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Virus Test Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at com.pandemic.BDD.definations.virusTestDefination.assert_failure(virusTestDefination.java:42)
+at ✽.the form should not be submitted(file:///D:/Pandemic_test/src/test/java/com/pandemic/BDD/features/virusTest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:09:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:09:08 IST" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submission with Empty fields for Virus Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Virus Test Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:09:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T18:09:10 IST" duration-ms="2673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Output if contact with person is selected as Yes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Virus Test Form Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.pandemic.BDD.RunnerClass.CucumberRunnerTests@1d296da]" started-at="2025-07-29T18:09:10 IST" name="tearDownClass" finished-at="2025-07-29T18:09:11 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.pandemic.BDD.RunnerClass.CucumberRunnerTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

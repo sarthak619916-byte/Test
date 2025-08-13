@@ -1,0 +1,11 @@
+com\pandemic\BDD\RunnerClass\CucumberRunnerTests.class
+com\pandemic\BDD\setup\ConfigReader.class
+com\pandemic\BDD\setup\DriverSetup.class
+com\pandemic\BDD\hooks\Hooks.class
+com\pandemic\BDD\pages\VirusTestPage.class
+com\pandemic\BDD\pages\DistrinctPassTestPage.class
+com\pandemic\BDD\definations\virusTestDefination.class
+com\pandemic\BDD\utility\ScreenshotUtil.class
+com\pandemic\BDD\utility\ExtentManager.class
+com\pandemic\BDD\definations\DistrictPassDefination.class
+com\pandemic\BDD\utility\ExcelReader.class

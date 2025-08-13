@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.36 s <<< FAILURE! -- in TestSuite
+com.pandemic.BDD.RunnerClass.CucumberRunnerTests.runScenario["Submit E-Pass form with invalid data", "E-Pass Application Form Submission"](2) -- Time elapsed: 3.307 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at com.pandemic.BDD.definations.DistrictPassDefination.form_should_not_be_submitted_successfully(DistrictPassDefination.java:44)
+	at ✽.Form should not be submitted(file:///D:/Pandemic_test/src/test/java/com/pandemic/BDD/features/DistrinctPassTest.feature:18)
+
+com.pandemic.BDD.RunnerClass.CucumberRunnerTests.runScenario["Submission with Invalid data for Virus Test", "Virus Test Form Submission"](6) -- Time elapsed: 2.824 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at com.pandemic.BDD.definations.virusTestDefination.assert_failure(virusTestDefination.java:42)
+	at ✽.the form should not be submitted(file:///D:/Pandemic_test/src/test/java/com/pandemic/BDD/features/virusTest.feature:11)
+
